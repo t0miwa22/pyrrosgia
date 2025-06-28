@@ -6,6 +6,7 @@ import About from './components/sections/About';
 import Contact from './components/sections/Contact';
 import './utils/animations.css';
 import { SpeedInsights } from '@vercel/speed-insights/react'
+import { Analytics } from "@vercel/analytics/react"
 
 
 
@@ -40,6 +41,7 @@ function App() {
       <Footer />
 
       <SpeedInsights />
+      <Analytics/>
     </div>
   );
 }
