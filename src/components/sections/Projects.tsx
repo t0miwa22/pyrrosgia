@@ -13,7 +13,7 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Produced Water Management',
+    title: 'Hydrocarbon Recovery From Produced Water',
     category: 'Commercial',
     image: 'https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800',
     description: ''
@@ -56,7 +56,7 @@ const Projects = () => {
           ))}
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
           {filteredProjects.map(project => (
             <div 
               key={project.id} 
