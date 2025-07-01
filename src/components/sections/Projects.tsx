@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Container from '../ui/Container';
 import SectionTitle from '../ui/SectionTitle';
+import img from '../../assets/h20.png';
 
 type Project = {
   id: number;
@@ -15,7 +16,7 @@ const projects: Project[] = [
     id: 1,
     title: 'Hydrocarbon Recovery From Produced Water',
     category: 'Commercial',
-    image: 'https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: img,
     description: ''
   }
   
