@@ -23,7 +23,7 @@ const Hero = () => {
       {/* Hero Text Content */}
       <div className="relative z-10 flex items-center justify-between h-full px-6 lg:px-20">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-6xl md:text-6xl font-bold text-white leading-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
             <span className="block animate-fade-in-up delay-[100ms]">
               Transforming Operations
             </span>

@@ -14,11 +14,6 @@ const partners = [
     name: 'Gankco',
     logo: gankco,
     websiteUrl: 'https://gankcoenergy.com/'
-  },
-  {
-    name:'Pyrrosgaia',
-    logo: pyrr,
-    websiteUrl: 'https://github.com/t0miwa22/pyrrosgia'
   }
 ];
 
@@ -77,7 +72,7 @@ const About = () => {
         <Swiper
           modules={[Autoplay]}
           spaceBetween={20}
-          slidesPerView={2}
+          slidesPerView={1}
           loop={true}
           autoplay={{
             delay: 2500,
