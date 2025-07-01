@@ -13,46 +13,12 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Modern Office Complex',
+    title: 'Produced Water Management',
     category: 'Commercial',
     image: 'https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'A state-of-the-art office building featuring sustainable design elements and modern workspace.'
-  },
-  {
-    id: 2,
-    title: 'Luxury Residence',
-    category: 'Residential',
-    image: 'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Custom-built luxury home with premium finishes and smart home technology integration.'
-  },
-  {
-    id: 3,
-    title: 'Shopping Mall Renovation',
-    category: 'Renovation',
-    image: 'https://images.pexels.com/photos/5875837/pexels-photo-5875837.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Complete renovation of a shopping center, modernizing the space while maintaining operations.'
-  },
-  {
-    id: 4,
-    title: 'Hospital Wing Addition',
-    category: 'Institutional',
-    image: 'https://images.pexels.com/photos/668296/pexels-photo-668296.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'New wing addition to an existing hospital with specialized medical facilities and patient rooms.'
-  },
-  {
-    id: 5,
-    title: 'Industrial Warehouse',
-    category: 'Industrial',
-    image: 'https://images.pexels.com/photos/236705/pexels-photo-236705.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Large-scale warehouse construction with advanced logistics systems and storage solutions.'
-  },
-  {
-    id: 6,
-    title: 'Waterfront Apartment Complex',
-    category: 'Residential',
-    image: 'https://images.pexels.com/photos/2506990/pexels-photo-2506990.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Multi-unit residential complex with premium amenities and scenic waterfront views.'
+    description: ''
   }
+  
 ];
 
 const categories = ['All', ...new Set(projects.map(project => project.category))];
@@ -70,7 +36,7 @@ const Projects = () => {
       <Container>
         <SectionTitle 
           title="Our Featured Projects" 
-          subtitle="Explore our portfolio of completed construction projects across various sectors."
+          subtitle="Explore our portfolio of ongoing projects across various sectors."
           centered
         />
         

@@ -4,6 +4,7 @@ import Footer from './components/layout/Footer';
 import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import Contact from './components/sections/Contact';
+import Projects from './components/sections/Projects';
 import './utils/animations.css';
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from "@vercel/analytics/react"
@@ -36,12 +37,13 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Projects />
       </main>
       <Contact />
       <Footer />
 
       <SpeedInsights />
-      <Analytics/>
+      <Analytics />
     </div>
   );
 }

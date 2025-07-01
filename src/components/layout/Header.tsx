@@ -7,7 +7,8 @@ import logo from '../../assets/py.png'
 
 const navLinks = [
   { name: 'Home', url: '#home' },
-  { name: 'About', url: '#about' },
+  { name: 'Who We Are', url: '#about' },
+  { name: 'Projects', url: '#projects' },
 ];
 
 const Header = () => {
@@ -35,20 +36,20 @@ const Header = () => {
           : 'bg-white py-5'
       }`}
     >
-      <Container>
-        <div className="flex items-center justify-between">
-          <div className="flex items-center">
-            <a href="#home" className="flex items-center space-x-3">
-              <img src={logo} alt="Logo" className="h-10 w-15" />
+      <Container className="px-0">
+        <div className="flex items-center justify-between w-full px-4 md:px-8">
+         
+            <a href="#home" className="flex items-center ">
+              <img src={logo} alt="Logo" className="h-10 w-auto" />
                 </a>
-                </div>
-          <nav className="hidden md:flex items-center space-x-8">
+               
+          <nav className="hidden md:flex items-center space-x-10">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.url}
-                className={`text-sm font-medium transition-colors hover:text-flame-500 ${
-                  isScrolled ? 'text-navy-500' : 'text-white'
+                className={`text-lg font-medium transition-colors hover:text-flame-500 ${
+                  isScrolled ? 'text-navy-500' : 'text-navy-500'
                 }`}
               >
                 {link.name}
