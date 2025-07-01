@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 
   try {
     const data = await resend.emails.send({
-      from: 'Pyrrosgaia Website <onboarding@resend.dev>', // Verified Resend sender
+      from: 'Pyrrosgaia Website <adetomiwa@pyrrosgaiaoilservices.com>', // Verified Resend sender
       to: 'adetomiwa@pyrrosgaiaoilservices.com', // company inbox
       subject: subject || 'New Contact Message',
       html: `
