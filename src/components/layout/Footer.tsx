@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-navy-400 mt-12 pt-8 text-center text-gray-500">
-          <p>© {currentYear} Pyrrosgaia Oil Services. All rights reserved.</p>
+          <p>© {currentYear} Pyrrosgaia Oil Services. </p>
         </div>
       </Container>
     </footer>
