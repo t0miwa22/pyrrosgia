@@ -60,7 +60,7 @@ const Contact = () => {
           centered
         />
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+       
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-xl font-bold mb-6 text-navy-500">Send Us a Message</h3>
             
@@ -135,30 +135,8 @@ const Contact = () => {
             </form>
           </div>
           
-          <div>
-            <div className="bg-white p-8 rounded-lg shadow-md mb-8">
-              <h3 className="text-xl font-bold mb-6 text-navy-900">Contact Information</h3>
-              
-              <ContactInfo
-                icon={<MapPin size={24} />}
-                title="Our Location"
-                content={<address className="not-italic">Lagos, Nigeria.<br /></address>}
-              />
-              
-              <ContactInfo
-                icon={<Phone size={24} />}
-                title="Phone Number"
-                content={<a href="tel:+2347048000703" className="hover:text-navy-500">+2347048000703</a>}
-              />
-              
-              <ContactInfo
-                icon={<Mail size={24} />}
-                title="Email Address"
-                content={<a href="mailto:adetomiwa@pyrrosgaiaoilservices.com" className="hover:text-navy-500">adetomiwa@pyrrosgaiaoilservices.com</a>}
-              />
-            </div>
-          </div>
-        </div>
+
+       
       </Container>
     </section>
   );

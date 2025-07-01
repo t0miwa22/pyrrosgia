@@ -9,26 +9,18 @@ const Footer = () => {
   return (
     <footer className="bg-white-500 text-gray-700 pt-16 pb-8">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div>
           <img 
           src={logo}
           alt="Pyrros Gaia Logo" 
           className="h-12 mb-6"/>
-            <p className="text-gray-500 mb-6">
-              We are focused on adding tangible value to the oil and gas industry through innovation, expertise, and strategic collaboration.
-            </p>
+
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-700 hover:text-flame-500 transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-flame-500 transition-colors">
+              <a href="https://x.com/pyrrosgaia" className="text-gray-700 hover:text-flame-500 transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-flame-500 transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-flame-500 transition-colors">
+              <a href="https://www.linkedin.com/company/pyrrosgaia-oil-services" className="text-gray-700 hover:text-flame-500 transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -58,10 +50,6 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail size={20} className="mr-3 text-navy-500 shrink-0" />
                 <span className="text-gray-500">adetomiwa@pyrrosgaiaoilservices.com</span>
-              </li>
-              <li className="flex items-center">
-                <Clock size={20} className="mr-3 text-navy-500 shrink-0" />
-                <span className="text-gray-500">Mon-Fri: 8AM - 5PM</span>
               </li>
             </ul>
           </div>
